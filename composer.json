@@ -38,7 +38,7 @@
                 "Cart": "Gloudemans\\Shoppingcart\\Facades\\Cart"
             }
         }
-    }
+    },
     "suggest": {
         "gloudemans/notify": "Simple flash notifications for Laravel"
     },
