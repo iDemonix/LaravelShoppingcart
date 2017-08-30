@@ -29,6 +29,16 @@
             "Gloudemans\\Tests\\Shoppingcart\\": "tests/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
+            ],
+            "aliases": {
+                "Cart": "Gloudemans\\Shoppingcart\\Facades\\Cart"
+            }
+        }
+    }
     "suggest": {
         "gloudemans/notify": "Simple flash notifications for Laravel"
     },
